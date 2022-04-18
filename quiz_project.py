@@ -23,7 +23,7 @@ else:
     exit()
 
 #-----------------------------------------------------------|
-#Creating 5 lists-of 5 countries
+#Creating n lists-of n countries
 #-----------------------------------------------------------|
 rand_country = []
 for i in range(AMOUNT_OF_QUIZ):
@@ -45,7 +45,7 @@ for i in range(AMOUNT_OF_QUIZ):
         file.write("Choose correct Capital of the Given Country : {} \n\n".format(random_country))
         for j in range(AMOUNT_OF_QUESTIONS):
 
-            #Capitals of randomly choosen sets of countries Guarantee Correct answer is there
+            #Capitals of randomly choosen sets of countries with 100% Guarantee Correct answer is there
             file.write("({}){}\n".format(j+1,capitals[rand_country[i][j]]))
 
 
