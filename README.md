@@ -10,4 +10,4 @@
 
 
 ## (2) q1
-**In this File I solved a bunch of interview questions 
+**  In this File I solved a bunch of interview questions 
