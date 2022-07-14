@@ -7,3 +7,7 @@
 * Capitals of the city are selected randomly 
 * Answers also are selected randomly with n-1 wrong answers and 1 correct
 * Program also Generating .txt file with correct answers to all questions
+
+
+## (2) q1
+**In this File I solved a bunch of interview questions 
