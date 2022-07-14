@@ -9,6 +9,6 @@
 * Program also Generating .txt file with correct answers to all questions
 
 
-## (2) q1
+## (2) q1.py
 **In this File I solved a bunch of interview questions, They are just Simple algorythmic exercises**
 
