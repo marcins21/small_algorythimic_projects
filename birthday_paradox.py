@@ -3,6 +3,7 @@ import random
 MONTHS = ['sty','lut','mar','kwi','maj','cze','lip','sie','wrz','paz','lis','gru']
 DAYS = [i for i in range(1,32)]
 
+
 #FUNCTION TO FIND IF BIRTHDAY REPEAT IN A RANDOM CHOICED LIST
 def find_same_birthdays(birthdays:list):
     same_birthday = []
@@ -15,6 +16,7 @@ def find_same_birthdays(birthdays:list):
             same_birthday.append(tmp)
             #if birthday repeats then add '100' to another list
             result_list.append(100)
+            
         else:
             result_list.append(0)
 
@@ -34,6 +36,7 @@ complete_result = []
 #'FOR LOOP'  SIMULATIONS
 for i in range(how_many_simulations):
     number_of_people = [[] for i in range(how_many_people)]
+    
     # 'FOR LOOP' GROUP OF PEOPLE
     for j in range(how_many_people):
         
@@ -57,6 +60,7 @@ for i in range(how_many_simulations):
     #
     # if 100 DO NOT EXIST this mean that we didn't hit same birthday in a group of people
     ###############################################################################################################
+    
     if 100 in same_birthday_result:
         complete_result.append(100)
     else:
