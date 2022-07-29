@@ -10,5 +10,7 @@
 
 
 ## (2) q1.py
-**In this File I solved a bunch of interview questions, They are just Simple algorythmic exercises**
+**In this File I solved a bunch of interview questions  || questions Mainly about "Integers Operations"
 
+## (3) q2.py  
+** In this File I Solved a bunch of interview questions || questions Mainly about "String Operations"
